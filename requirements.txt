@@ -1,0 +1,8 @@
+django<5
+celery
+djangorestframework
+markdown
+django-filter
+scikit-learn
+pydantic
+requests

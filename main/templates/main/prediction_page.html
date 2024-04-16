@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des Prédictions</title>
+</head>
+<body>
+    <h1>Liste des Prédictions</h1>
+    <ul>
+        {% for prediction in predictions %}
+        <li>
+            Petal Length: {{ prediction.petal_length }} - 
+            Sepal Length: {{ prediction.sepal_length }} - 
+            Petal Width: {{ prediction.petal_width }} - 
+            Sepal Width: {{ prediction.sepal_width }} - 
+            Predicted Class: {{ prediction.predicted_class }} -
+            Predicted on: {{ prediction.created_at }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

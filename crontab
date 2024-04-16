@@ -1,0 +1,2 @@
+* * * * * /usr/local/bin/python /app/manage.py fetch_api_and_call >> /var/log/cron.log 2>&1
+# N'oubliez pas de laisser une ligne vide à la fin du fichier
